@@ -1,3 +1,13 @@
-
+.index-body {
+  background-color: #363a3d;
+  color: white;
+}
+.index-body nav {
+  background-color: #ffd33a;
+  padding: 0.4rem;
+}
+.index-body nav .contact-col {
+  margin: auto;
+}
 
 /*# sourceMappingURL=main.css.map */
