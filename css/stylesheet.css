@@ -1,13 +1,36 @@
-.index-body {
+html {
+  height: 100%;
+}
+html .index-body {
   background-color: #363a3d;
   color: white;
+  height: 100%;
 }
-.index-body nav {
+html .index-body .index-container {
+  height: 100%;
+}
+html .index-body .index-container nav {
   background-color: #ffd33a;
   padding: 0.4rem;
 }
-.index-body nav .contact-col {
+html .index-body .index-container nav .contact-col {
   margin: auto;
+}
+html .index-body .index-container .kenteken-check-field {
+  width: 100%;
+  height: 100%;
+}
+html .index-body .index-container .kenteken-check-field .kenteken-container {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  background-color: gainsboro;
+}
+html .index-body .index-container .kenteken-check-field .kenteken-container form input {
+  background-color: #ffd33a;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
