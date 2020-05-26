@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41966cbc-8ce3-4f3a-bad5-17b17a8f6145" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/search_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/resultstyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resultstyle.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +31,9 @@
   </component>
   <component name="ProjectId" id="1bnU7cH5O99VYzqIyyeoaYDAkI1" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/algopdrachten" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -80,6 +89,7 @@
       <updated>1589267184791</updated>
       <workItem from="1589267185906" duration="5317000" />
       <workItem from="1589534777043" duration="44000" />
+      <workItem from="1590476373683" duration="2379000" />
     </task>
     <servers />
   </component>

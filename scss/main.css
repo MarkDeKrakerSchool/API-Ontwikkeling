@@ -1,9 +1,9 @@
 /* Error: expected "{".
  *   ,
- * 3 | @import 'resultstyle';
+ * 4 | @import 'resultstyle';
  *   |                      ^
  *   '
- *   main.scss 3:22  root stylesheet */
+ *   main.scss 4:22  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: expected \"{\".\a   \2577 \a 3 \2502  @import 'resultstyle';\d\a   \2502                       ^\a   \2575 \a   main.scss 3:22  root stylesheet";
+  content: "Error: expected \"{\".\a   \2577 \a 4 \2502  @import 'resultstyle';\d\a   \2502                       ^\a   \2575 \a   main.scss 4:22  root stylesheet";
 }
