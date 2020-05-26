@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="41966cbc-8ce3-4f3a-bad5-17b17a8f6145" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/resultstyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resultstyle.scss" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +89,10 @@
       <updated>1589267184791</updated>
       <workItem from="1589267185906" duration="5317000" />
       <workItem from="1589534777043" duration="44000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1590476373683" duration="2872000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
