@@ -1,20 +1,7 @@
-<<<<<<< HEAD
 .navbar-dark {
   background-color: #343a40 !important;
-=======
-html {
-  height: 100%;
-}
-html .index-body {
-  background-color: #363a3d;
->>>>>>> c228783b812c207de4198f52fef24c9b090251e0
   color: white;
-  height: 100%;
 }
-html .index-body .index-container {
-  height: 100%;
-}
-<<<<<<< HEAD
 
 .bd-highlight {
   display: flex;
@@ -26,15 +13,27 @@ html .index-body .index-container {
 .car-info {
   display: flex;
   justify-content: center;
-=======
+  margin: auto;
+  text-align: center;
+}
+
+html {
+  height: 100%;
+}
+html .index-body {
+  background-color: #363a3d;
+  color: white;
+  height: 100%;
+}
+html .index-body .index-container {
+  height: 100%;
+}
 html .index-body .index-container nav {
   background-color: #ffd33a;
   padding: 0.4rem;
 }
 html .index-body .index-container nav .contact-col {
->>>>>>> c228783b812c207de4198f52fef24c9b090251e0
   margin: auto;
-  text-align: center;
 }
 html .index-body .index-container .kenteken-check-field {
   width: 100%;
