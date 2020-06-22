@@ -34,10 +34,18 @@
                 <h2>Online kentekencheck</h2>
             </div>
             <div class="kenteken-field">
-                <form action="" class="kenteken-form">
-                    <label for="kenteken-input-form">Vul hier uw kenteken in: </label>
-                    <input type="text" id="kenteken-input-form" name="kenteken-input-form">
-                    <button type="submit">Zoek resultaten</button>
+                <form action="" method="POST" class="kenteken-form">
+                    {{ form.hidden_tag() }}
+                    <fieldset class="form-group">
+                        <legend class="border-bottom mb-4">Zoek hieronder uw kenteken</legend>
+                        <div class="form-group">
+                            {{ form.kenteken.label(class="form-control-label") }}
+                            {{ form.kenteken(class="form-control form-control-lg") }}
+                        </div>
+                    </fieldset>
+                    <div class="form-group">
+                        {{ form.submit(class="btn btn-outline-info") }}
+                    </div>
                 </form>
             </div>
         </div>
