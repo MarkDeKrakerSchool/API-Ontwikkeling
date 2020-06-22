@@ -7,8 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-
     <link rel="stylesheet" href="../static/css/stylesheet.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}">
 
     <title>Kentekenchecker</title>
 </head>
@@ -21,55 +21,6 @@
 </nav>
 
 
-<main>
-    <div class="container">
-        <div class="car-story">
-            <h2>Ferrari GTC4 3.9 V8 Lusso T</h2>
-            <p>Ferrari GTC4 3.9 V8 Lusso T</p>
-            <p>Deze Ferrari GTC4 komt uit 2017, werd geleverd van 01-10-2016 tot 31-12-2018 en kostte toen € 293.158,-.
-                Deze
-                geïmporteerde personenauto staat sinds 2018 op kenteken en is voorzien van een benzine motor. De
-                benzinemotor
-                heeft een maximum vermogen van 449 kW (611 PK) en een cilinderinhoud van 3855 cc.</p>
-            <p>De auto heeft een topsnelheid van 320 km per uur en bereikt vanuit stilstand de 100km/u in 3,5 seconden.
-                Het
-                verbruik van deze auto is gemiddeld 11,60 liter per 100 km en hij weegt 1840 kg. De APK is geldig tot
-                14-07-2021
-                en de wegenbelasting bedraagt € 270,- per kwartaal.</p>
-        </div>
-    </div>
-
-    <!-- Informatie auto -->
-    <div class="car-info">
-        <div class="container">
-            <div class="d-flex flex-row bd-highlight mb-3">
-                <div class="p-2 bd-highlight">Foto</div>
-                <div class="p-2 bd-highlight">Merk</div>
-                <div class="p-2 bd-highlight">Type</div>
-            </div>
-            <div class="d-flex flex-row bd-highlight mb-3">
-                <div class="p-2 bd-highlight">Bouwjaar</div>
-                <div class="p-2 bd-highlight">Prijs</div>
-                <div class="p-2 bd-highlight">Variant</div>
-            </div>
-
-            <div class="d-flex flex-row bd-highlight mb-3">
-                <div class="p-2 bd-highlight">Uitvoering</div>
-                <div class="p-2 bd-highlight">Carrosserie</div>
-                <div class="p-2 bd-highlight">Aandrijving</div>
-            </div>
-            <div class="d-flex flex-row bd-highlight mb-3">
-                <div class="p-2 bd-highlight">Vermogen</div>
-                <div class="p-2 bd-highlight">0-100km/u</div>
-                <div class="p-2 bd-highlight">Topsnelheid</div>
-                <div class="p-2 bd-highlight">Transmissie</div>
-            </div>
-
-
-        </div>
-    </div>
-
-</main>
 </body>
 
 <!-- Optional JavaScript -->
@@ -83,5 +34,20 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
+<!--<script>-->
+<!--                    $.ajax({-->
+<!--                url: "https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=0010NK",-->
+<!--                type: "GET",-->
+<!--                data: {-->
+<!--                  "$limit" : 1,-->
+<!--                  "$$app_token" : "74zw5suzmwxcp15nu7xxa7gkl"-->
+<!--                }-->
+<!--            }).done(function(data) {-->
+<!--              alert("Retrieved " + data.length + " records from the dataset!");-->
+<!--              // console.log(data);-->
+<!--              document.write(data);-->
+<!--            });-->
+<!--    </script>-->
 
 </html>
